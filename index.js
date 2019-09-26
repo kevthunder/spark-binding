@@ -1,5 +1,5 @@
 module.exports = {
-  Binder: require('./Binder'),
-  EventBind: require('./EventBind'),
-  Reference: require('./Reference')
+  Binder: require('./src/Binder'),
+  EventBind: require('./src/EventBind'),
+  Reference: require('./src/Reference')
 }
