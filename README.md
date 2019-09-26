@@ -20,7 +20,7 @@ npm install kevthunder/spark-binding
 
 A generic class to create a binder. 
 
-The function `doBind` and `doUnbind` need tp be implemented to make it a fully functional binder
+The function `doBind` and `doUnbind` need to be implemented to make it a fully functional binder
 
 ### EventBind
 
