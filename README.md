@@ -16,19 +16,19 @@ npm install kevthunder/spark-binding
 
 ## Content
 
-## Binder
+### Binder
 
 A generic class to create a binder. 
 
 The function `doBind` and `doUnbind` need tp be implemented to make it a fully functional binder
 
-## EventBind
+### EventBind
 
 A class that remember to wich class and event a callback need to be added as a listener. 
 
 Use `bind` and `unbind` to easily add and remove the listener
 
-## Reference
+### Reference
 
 An helper that make is easier to compare similar class. 
 
