@@ -1,6 +1,6 @@
 {
   "name": "spark-binding",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Utility classes to bind classes together",
   "main": "index.js",
   "repository": {
