@@ -1,0 +1,35 @@
+{
+  "name": "spark-binding",
+  "version": "0.0.1",
+  "description": "Utility classes to bind classes together",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kevthunder/spark-binding.git"
+  },
+  "scripts": {
+    "test": "npm run build & nyc --reporter=html --reporter=text mocha test",
+    "test-debug": "npm run build & mocha --inspect-brk test",
+    "build": "gulp buildIndex & eslint --fix index.js"
+  },
+  "keywords": [
+    "binding"
+  ],
+  "author": "Kevin G",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^6.1.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-require-index": "^0.1.1",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
+  }
+}
